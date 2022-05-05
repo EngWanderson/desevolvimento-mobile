@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">atividade01_componentes_basicos</string>
+    <string name="toggle_button">1.Toggle button:</string>
+    <string name="_2_edite_text">2.Edite_Text:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

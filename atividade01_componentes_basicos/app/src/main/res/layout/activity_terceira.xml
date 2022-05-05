@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relativeLayout"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <fragment
+        android:id="@+id/fragmentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/linearLayout"
+        android:name="br.com.tabs_test.FragementPrimeiro"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/ButtonPrimeiro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Primeira Tab"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/ButtonSegundo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Segunda Tab"
+            android:layout_weight="1"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SegundaActivity"
+    android:background="@drawable/kotlin"
+    >
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="11. Como	adicionar	uma	imagem	de	fundo: \n12.navegação com múltiplas Activities:"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+  <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+      <GridView
+          android:cacheColorHint="@color/colorPrimaryDark"
+          android:elevation="@dimen/cardview_default_radius"
+          android:id="@+id/meu_gridView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:numColumns="3"
+          android:padding="1dp"/>
+  </RelativeLayout>
+    <Button
+        android:id="@+id/ir_terceira_tela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ir para terceira tela"/>
+
+</LinearLayout>
+
+</RelativeLayout>
