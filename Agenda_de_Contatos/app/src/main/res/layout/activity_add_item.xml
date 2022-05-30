@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddItemActivity"
+    android:background="@color/AmareloClaro">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/viewNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="nome" />
+
+        <EditText
+            android:id="@+id/txtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:labelFor="@+id/viewNome"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="telefone" />
+
+        <EditText
+            android:id="@+id/txtTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:labelFor="@+id/viewTelefone"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/viewCorreio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="correio_eletronico" />
+
+        <EditText
+            android:id="@+id/txtCorreioEletronico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:labelFor="@+id/viewCorreo"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnGuarda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Salvar Contato"
+            android:textSize="18sp" />
+    </LinearLayout>
+</LinearLayout>

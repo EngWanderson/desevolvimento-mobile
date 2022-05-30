@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Agenda_de_Contatos"
